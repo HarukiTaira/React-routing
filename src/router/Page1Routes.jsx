@@ -10,12 +10,12 @@ export const page1Routes = [
   },
   {
     path: "/",
-    exact: true,
+    exact: false,
     children: <Page1DetailA />
   },
   {
     path: "/",
-    exact: true,
+    exact: false,
     children: <Page1DetailB />
   }
 ];
